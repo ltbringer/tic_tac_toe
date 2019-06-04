@@ -24,7 +24,7 @@ python train.py
 > 'Enter the number of epochs for training
 > 10000
 ```
-You can view debug information if you do:
+You can view debug information if you set this in your shell:
 ```
 export ENVIRONMENT=DEBUG.
 ```
