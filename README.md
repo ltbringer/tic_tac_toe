@@ -1,4 +1,25 @@
-# A game of Tic-Tac-Toe: Part I
+# Installation
+```
+git clone git@github.com:AmreshVenugopal/tic_tac_toe.git
+pip install numpy
+```
+That's the only dependency you would need!
+
+
+#Usage
+```
+python train.py
+
+
+> 'Enter the number of epochs for training
+> 10000
+```
+You can view debug information if you do:
+```
+export ENVIRONMENT=DEBUG.
+```
+
+# A game of Tic-Tac-Toe:
 
 The good thing about this project could be that it will be built with no other library except numpy. numpy being irreplacable for the neat matrix manipulation methods that it can equip you with along with the speed of c++.
 
@@ -46,7 +67,4 @@ This step is a branch from step 3 where we had to determine if the game has a wi
 Connecting back to Step 2, where I had left out the draw_board and is_winning_move methods, they are now introduced. This is the final snippet of this session.
 
 The method draw_board represents the matrix in a friendly tic-tac-toe board format by inserting values in a string and the method is_winning_move identifies a winner if is_game_over method returns True which has been covered in Step 3.
-
-### Enjoy
-If you have cloned/forked/downloaded the source code from github, or coded it yourself, play with it and get a feel of how easy it is for you as a human to win. Hopefully the other parts won't be as code heavy as this. Will post another piece of this puzzle soon.
 
