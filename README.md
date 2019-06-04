@@ -1,4 +1,14 @@
-# Installation
+# A game of Tic-Tac-Toe:
+
+The good thing about this project could be that it will be built with no other library except numpy. numpy being irreplacable for the neat matrix manipulation methods that it can equip you with along with the speed of c++.
+
+You can clone the repo, fork it or however you may please, but take a look at the documentation added to the code.
+
+I have written the expectations in the beginning of the notebook. If it suits you, try to attempt it or atleast run it, if nothing works out for you, you can ask what you couldn't understand in the comments on github.
+
+I have taken a object oriented approach as I felt there could be a synergy between object orient programming and the entities we have to model. If you find code comments annoying, please use an IDE which can help you shut them up easy, I know for instance, PyCharm has some sort of support. Most of the snippets seem huge, but that is again because of being heavily commented. All of the class methods, on an average are 12-14 lines of code.
+
+## Installation
 ```
 git clone git@github.com:AmreshVenugopal/tic_tac_toe.git
 pip install numpy
@@ -6,7 +16,7 @@ pip install numpy
 That's the only dependency you would need!
 
 
-#Usage
+## Usage
 ```
 python train.py
 
@@ -18,16 +28,6 @@ You can view debug information if you do:
 ```
 export ENVIRONMENT=DEBUG.
 ```
-
-# A game of Tic-Tac-Toe:
-
-The good thing about this project could be that it will be built with no other library except numpy. numpy being irreplacable for the neat matrix manipulation methods that it can equip you with along with the speed of c++.
-
-You can clone the repo, fork it or however you may please, but take a look at the documentation added to the code.
-
-I have written the expectations in the beginning of the notebook. If it suits you, try to attempt it or atleast run it, if nothing works out for you, you can ask what you couldn't understand in the comments on github.
-
-I have taken a object oriented approach as I felt there could be a synergy between object orient programming and the entities we have to model. If you find code comments annoying, please use an IDE which can help you shut them up easy, I know for instance, PyCharm has some sort of support. Most of the snippets seem huge, but that is again because of being heavily commented. All of the class methods, on an average are 12-14 lines of code.
 
 ## Expectations
 ### Step 1
