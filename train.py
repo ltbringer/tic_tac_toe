@@ -55,7 +55,6 @@ def main():
     epochs = int(input('Enter the number of epochs for training: '))
     train(epochs, bot1, bot2)
     game = Board(player_sym='O')
-    game.draw_board()
     bot1.get_serious()
     while not game.stale:
         game.bot_play(*bot1.select_move(game.board))
